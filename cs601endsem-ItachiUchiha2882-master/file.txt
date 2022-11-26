@@ -1,0 +1,4 @@
+Integrating over [-1, 1], we get value: 1.273229505
+Actual value: 1.273239545
+Absolute error: 1.004021637e-05
+Percent error: 0.0007885567496

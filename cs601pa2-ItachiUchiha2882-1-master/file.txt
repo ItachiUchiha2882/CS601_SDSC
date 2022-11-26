@@ -1,0 +1,61 @@
+For node1, x is 0
+For node2, x is 0.0625
+For node3, x is 0.125
+For node4, x is 0.1875
+For node5, x is 0.25
+For node6, x is 0.3125
+For node7, x is 0.375
+For node8, x is 0.4375
+For node9, x is 0.5
+
+For element index 1, xa & xb are 0 & 0.0625
+For element index 2, xa & xb are 0.0625 & 0.125
+For element index 3, xa & xb are 0.125 & 0.1875
+For element index 4, xa & xb are 0.1875 & 0.25
+For element index 5, xa & xb are 0.25 & 0.3125
+For element index 6, xa & xb are 0.3125 & 0.375
+For element index 7, xa & xb are 0.375 & 0.4375
+For element index 8, xa & xb are 0.4375 & 0.5
+
+The matrix after Pivotisation is:
+1.4e+09        -1.4e+09               0               0               0               0               0               0         5156.25               
+-1.4e+09         2.8e+09        -1.4e+09               0               0               0               0               0               0               
+0        -1.4e+09         2.8e+09        -1.4e+09               0               0               0               0               0               
+0               0        -1.4e+09         2.8e+09        -1.4e+09               0               0               0               0               
+0               0               0        -1.4e+09         2.8e+09        -1.4e+09               0               0               0               
+0               0               0               0        -1.4e+09         2.8e+09        -1.4e+09               0               0               
+0               0               0               0               0        -1.4e+09         2.8e+09        -1.4e+09               0               
+0               0               0               0               0               0        -1.4e+09         2.8e+09               0               
+
+
+The matrix after gauss-elimination is as follows:
+1.4e+09        -1.4e+09               0               0               0               0               0               0         5156.25               
+0         1.4e+09        -1.4e+09               0               0               0               0               0         5156.25               
+0               0         1.4e+09        -1.4e+09               0               0               0               0         5156.25               
+0               0               0         1.4e+09        -1.4e+09               0               0               0         5156.25               
+0               0               0               0         1.4e+09        -1.4e+09               0               0         5156.25               
+0               0               0               0               0         1.4e+09        -1.4e+09               0         5156.25               
+0               0               0               0               0               0         1.4e+09        -1.4e+09         5156.25               
+0               0               0               0               0               0               0         1.4e+09         5156.25               
+
+The values of the variables(U) are as follows:
+2.94643e-05
+2.57812e-05
+2.20982e-05
+1.84152e-05
+1.47321e-05
+1.10491e-05
+7.36607e-06
+3.68304e-06
+N:9
+2.85714e-05   1.98042e-05
+2.5e-05   1.79602e-05
+2.14286e-05   1.5989e-05
+1.78571e-05   1.38717e-05
+1.42857e-05   1.15847e-05
+1.07143e-05   9.09868e-06
+7.14286e-06   6.37553e-06
+3.57143e-06   3.36523e-06
+0   0
+
+RMS error: 1.35067e-05
